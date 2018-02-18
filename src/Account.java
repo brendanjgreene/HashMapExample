@@ -20,14 +20,14 @@ public class Account {
 	public String getAcctNo() {
 		return accountNumber;
 	}
-	public void setacctNo(String address) {
-		this.accountNumber = address;
+	public void setacctNo(String acctno) {
+		this.accountNumber = acctno;
 	}
 	
-	public void createAccount(String firstName, String lastName, String address) {
+	public void createAccount(String firstName, String lastName, String acctno) {
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.accountNumber = address;
+		this.accountNumber = acctno;
 	}
 
 }
