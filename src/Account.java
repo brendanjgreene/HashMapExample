@@ -2,7 +2,7 @@
 public class Account {
 	private String firstName;
 	private String lastName;
-	private String address;
+	private String accountNumber;
 
 	public String getFirstName() {
 		return firstName;
@@ -17,17 +17,17 @@ public class Account {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public String getAddress() {
-		return address;
+	public String getAcctNo() {
+		return accountNumber;
 	}
-	public void setAddress(String address) {
-		this.address = address;
+	public void setacctNo(String address) {
+		this.accountNumber = address;
 	}
 	
 	public void createAccount(String firstName, String lastName, String address) {
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.address = address;
+		this.accountNumber = address;
 	}
 
 }
